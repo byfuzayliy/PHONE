@@ -1,0 +1,14 @@
+.alarm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.alarm h2 {
+  font-size: 40px;
+}
+
+.alarm h1 {
+  font-size: 40px;
+}

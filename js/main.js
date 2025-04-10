@@ -4,7 +4,7 @@ const internet = document.querySelector(".internet");
 function updateTime() {
   const now = new Date();
   const timeParts = now.toLocaleTimeString("it-IT").split(":");
-  time.textContent = `${timeParts[0]}:${timeParts[1]}`;
+  time.innerHTML = `${timeParts[0]}:${timeParts[1]}`;
 }
 
 setInterval(updateTime, 1000);
